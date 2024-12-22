@@ -1,0 +1,16 @@
+{
+    "routes": [
+      {
+        "route": "/",
+        "serve": "/build/index.html"
+      }
+    ],
+    "navigationFallback": {
+      "rewrite": "/build/index.html",
+      "exclude": ["/images/*", "/css/*", "/js/*"]
+    },
+    "mimeTypes": {
+      ".json": "text/json"
+    }
+  }
+  
