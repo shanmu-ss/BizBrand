@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0.0",
+    "components": [
+      {
+        "id": "frontend",
+        "friendlyName": "BizBrand React FrontEnd",
+        "type": "static",
+        "appLocation": "frontend/build",
+        "linkedTo": ["backend"],
+        "outputLocation": "build"
+      },
+      {
+        "id": "backend",
+        "friendlyName": "BizBrand React Backend",
+        "type": "api",
+        "appLocation": "backend/",
+        "ingressPort": "5000"
+      }
+    ]
+  }
