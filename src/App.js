@@ -109,6 +109,10 @@ export default function App() {
     document.scrollingElement.scrollTop = 0;
   }, [pathname]);
 
+  // Log the port being used
+  const port = process.env.PORT || "8080"; // Default to "8080" if no environment variable is set
+  console.log(`Running on port: ${port}`);
+
   const getRoutes = (allRoutes) =>
     allRoutes.map((route) => {
       if (route.collapse) {
