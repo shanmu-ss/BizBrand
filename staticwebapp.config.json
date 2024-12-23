@@ -2,11 +2,11 @@
     "routes": [
       {
         "route": "/",
-        "serve": "/public/index.html"
+        "serve": "/build/index.html"
       }
     ],
     "navigationFallback": {
-      "rewrite": "/public/index.html",
+      "rewrite": "/build/index.html",
       "exclude": ["/images/*", "/css/*", "/js/*"]
     },
     "mimeTypes": {
