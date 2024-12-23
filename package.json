@@ -33,7 +33,7 @@
     "yup": "1.1.1"
   },
   "scripts": {
-    "start": "npm install react-scripts && react-scripts build && react-scripts start",
+    "start": "npm install react-scripts && react-scripts start",
     "build": "npm install react-scripts && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
