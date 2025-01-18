@@ -111,7 +111,10 @@ export default function App() {
 
   // Log the port being used
   const port = process.env.SERVER_PORT || 8080; // Use Azure's default PORT or fallback // Default to 8080
-  console.log(`Running on port: ${port}`);
+
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${port}`);
+  });
 
   const getRoutes = (allRoutes) =>
     allRoutes.map((route) => {
